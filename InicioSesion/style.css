@@ -1,0 +1,33 @@
+.dropdown{
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+@media (min-width: 768px){
+    .dropdown{
+        flex-direction: row;
+    }
+}
+.content{
+    background-color: bisque;
+    text-align: center;
+}
+.content a:hover{
+    background-color: #b29f89;
+
+}
+h1{
+    text-align: center;
+}
+.content p:hover{
+    background-color: #b29f89;
+}
